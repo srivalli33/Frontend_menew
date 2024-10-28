@@ -1,0 +1,78 @@
+.add-menu-item {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.add-menu-item h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-menu-item form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-menu-item label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.add-menu-item input[type="text"],
+.add-menu-item input[type="number"],
+.add-menu-item textarea {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.add-menu-item textarea {
+  resize: vertical;
+}
+
+.add-menu-item input[type="file"] {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.add-menu-item .category-group,
+.add-menu-item .best-seller-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add-menu-item .category-group input,
+.add-menu-item .best-seller-group input {
+  margin-left: 10px;
+}
+
+.add-menu-item .category-group label,
+.add-menu-item .best-seller-group label {
+  margin-right: 20px;
+}
+
+.add-menu-item button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.add-menu-item button:hover {
+  background-color: #218838;
+}
